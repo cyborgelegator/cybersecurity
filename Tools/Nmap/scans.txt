@@ -1,0 +1,5 @@
+# get detailed information regarding open ports
+nmap -p- -sV -T4 -v [target]
+
+# only get IP addresses:
+nmap -sn 10.10.10.0/24
