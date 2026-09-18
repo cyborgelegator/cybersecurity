@@ -6,3 +6,6 @@ nmap -sn 10.10.10.0/24
 
 # enumerate services
 nmap -sV -sC 10.67.154.175
+
+# get available ssh authentication types
+nmap -p22 --script ssh-auth-methods 10.67.130.193  
