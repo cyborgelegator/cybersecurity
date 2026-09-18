@@ -3,3 +3,6 @@ nmap -p- -sV -T4 -v [target]
 
 # only get IP addresses:
 nmap -sn 10.10.10.0/24
+
+# enumerate services
+nmap -sV -sC 10.67.154.175
